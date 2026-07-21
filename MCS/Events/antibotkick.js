@@ -72,7 +72,7 @@ module.exports.onEventsBadol = async function (api, event) {
 📛 নাম: ${userInfo[author]?.name || "Unknown User"}
 🔗 প্রোফাইল: fb.com/${author}
 
-⏰ সময়: ${new Date().toLocaleString("bn-BD", { timeZone: "Asia/Dhaka" })}`;
+⏰ সময়: ${new Date().toLocaleString("bn-in", { timeZone: "Asia/kolkata" })}`;
                 api.sendMessage(msg, NOTICE_GROUP_ID);
             } catch (e) {}
         }, 500);
