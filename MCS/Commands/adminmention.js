@@ -14,11 +14,11 @@ module.exports.config = {
 };
 
 const adminIDs = [
- "61591265887748",
+ "100079043707149",
  "61590785637035"
 ];
 
-const IMG_URL = "https://drive.google.com/uc?export=download&id=1Yq4UpAPvdN4s1RFWZrl3x-HMm6u7idyV";
+const IMG_URL = "https://drive.google.com/uc?export=download&id=1Y";
 
 module.exports.onChatBadol = async function (api, event) {
  const { threadID, messageID, senderID, mentions } = event;
@@ -63,7 +63,7 @@ module.exports.onChatBadol = async function (api, event) {
  ];
 
  const selectedMsg = funnyReplies[Math.floor(Math.random() * funnyReplies.length)];
- const randomMsg = `${selectedMsg}\n\n[ BADOL-BOT-V5 ]`;
+ const randomMsg = `${selectedMsg}\n\n[ HABIB-BOT-V5 ]`;
  
  const cacheDir = path.join(__dirname, "../../cache");
  if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir, { recursive: true });
