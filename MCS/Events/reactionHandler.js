@@ -36,7 +36,7 @@ module.exports = {
                                     `│  🚫 কিক আউট!!  │\n` +
                                     `╰───────────────╯\n\n` +
                                     `অতিরিক্ত বাল-পাকনামি করার কারণে আপনার পুক্কিতে লাথি 🦵 মেরে গ্রুপ থেকে বিদায় জানানো হলো। বিদায়! 🤢\n\n` +
-                                    `Powered by: BADOL-BOT-V5`;
+                                    `Powered by: HABIB-BOT-V5`;
                         api.sendMessage(msg, threadID);
                     }
                 });
