@@ -43,7 +43,7 @@ module.exports = {
                 leftName = userInfo[leftID]?.name || "Unknown";
             } catch (e) {}
 
-            let time = new Date().toLocaleString("en-GB", { timeZone: "Asia/Dhaka" });
+            let time = new Date().toLocaleString("en-GB", { timeZone: "Asia/kolkata" });
 
             const imgPath = path.join(cacheDir, `leave_${leftID}.png`);
             const fbPicUrl = `https://graph.facebook.com/${leftID}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
@@ -64,8 +64,8 @@ Goodbye 🥀, ${leftName}!
 ┃ 😔 Left the group
 ┃ 💬 We will miss you!
 ┣━━━━━━━━━━━━━━━┫
-┃ 🤖 BADOL-BOT-V5
-┃ 👑 DEV: MOHAMMAD BADOL
+┃ 🤖 HABIB -BOT-V5
+┃ 👑 Owner : HABIB 
 ┗━━━━━━━━━━━━━━━━━━━`;
 
             try {
