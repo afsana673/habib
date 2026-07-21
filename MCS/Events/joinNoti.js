@@ -46,7 +46,7 @@ module.exports = {
                 if (id === api.getCurrentUserID()) continue;
 
                 let name = user.fullName || "Unknown";
-                let time = new Date().toLocaleString("en-GB", { timeZone: "Asia/Dhaka" });
+                let time = new Date().toLocaleString("en-GB", { timeZone: "Asia/kolkata" });
                 let role = threadInfo.adminIDs.some(e => e.id == id)? "Admin 👑" : "Member 👤";
 
                 const imgPath = path.join(cacheDir, `welcome_${id}.png`);
@@ -69,8 +69,8 @@ Welcome 🌸, ${name}!
 ┃ ➕ Added By: ${adderName}
 ┃ 🆔 Adder UID: ${adderID}
 ┣━━━━━━━━━━━━━━━┫
-┃ 🤖 BADOL-BOT-V5
-┃ 👑 DEV: MOHAMMAD BADOL
+┃ 🤖 HABIB-BOT-V5
+┃ 👑 Owner: HABIB 
 ┗━━━━━━━━━━━━━━━━━━━`;
 
                 try {
