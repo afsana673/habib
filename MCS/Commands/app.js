@@ -59,7 +59,7 @@ module.exports = {
                 { name: "⌛ Fb Cookies ⏳", url: "https://t.me/SB_MODS_APK/184" }
             ];
 
-            let text = `╭━❮BADOL-BOT-V5❯━╮\n`;
+            let text = `╭━❮HABIB-BOT-V5❯━╮\n`;
             text += `├‣ ✨ **SB MODS PREMIUM APK LIST**\n`;
             text += `├━─━─━━──━─━─━\n`;
             text += `├‣ 📂 নিচের লিস্ট থেকে লিংক কপি করুন:\n`;
